@@ -1,0 +1,11 @@
+CREATE TABLE empleados (
+ id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ DNI VARCHAR(8) NOT NULL,
+ nombre VARCHAR(100),
+ salario DOUBLE 
+); 
+
+INSERT INTO empleados VALUES (5, '99000666', 'Cachivache', 20000);
+
+SELECT * FROM empleados
+WHERE salario>50000;

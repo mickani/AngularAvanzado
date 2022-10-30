@@ -1,0 +1,17 @@
+Consigna del ejercicio para resolver:
+
+Desarrollar un proyecto en Java, que permita gestionar empleados.
+Se desea que el programa nos deje agregar empleados a la nómina de la empresa.
+También podremos eliminar empleados a través de su número de legajo.
+Por medio del legajo además, podremos actualizar el sueldo que percibe.
+Finalmente deberemos poder visualizar a los empleados de 2 formas:
+a) La lista completa de empleados.
+b) Los datos de un empleado en particular (ingresando su legajo).
+
+Los empleados tendrán:
+-Legajo
+-Nombre
+-DNI
+-Sueldo
+
+La solución debe presentar un menú de opciones para poder interactuar con el usuario final.
