@@ -10,7 +10,8 @@ import { Curso } from '../model/curso';
 })
 export class CursoService {
 
-  URL="http://localhost:8080/curso/"
+  // URL="http://localhost:8080/curso/"
+  URL="appcursosrailway-production.up.railway.app/curso"
 
   constructor(private httpClient: HttpClient) { }
 
