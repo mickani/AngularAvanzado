@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/curso")
-//@CrossOrigin("http://localhost:4200")
+//@CrossOrigin("http://localhost:4200") //https://cursosappmiku.web.app/
 public class CursoController {
 
     @Autowired
